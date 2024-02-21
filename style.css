@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+.product{
+  display: block;
+  
+}
+body{
+ background: hsl(30, 54%, 90%);
+ max-width: 30rem;
+ height: 58rem;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ text-decoration: none;
+}
+  .product-img{
+    background-image: url("image-omelette.jpeg");
+    height: 10rem;
+    width: 20rem;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* overflow:clip ;  */
+  } 
+  .product-write-up{
+    background:hsl(0, 0%, 100);
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  .First-heading{
+    color:hsl(24, 5%, 18%);
+
+  }
+  h3{
+    color:hsl(332, 51%, 32%);
+  }
